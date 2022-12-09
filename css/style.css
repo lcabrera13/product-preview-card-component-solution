@@ -84,6 +84,11 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    cursor: pointer;
+}
+
+.second-block > button:hover {
+    background-color: hsl(180, 100%, 14%);
 }
 
 .second-block > button i {
